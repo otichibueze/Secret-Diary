@@ -575,7 +575,7 @@ files:
       implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.3.2")
     }
   learner_created: false
-feedback_link: https://hyperskill.org/projects/276/stages/1398/implement#comment
+feedback_link: https://hyperskill.org/learn/step/21699#comment
 status: Solved
 feedback:
   message: Congratulations!

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\org.hyperskill.secretdiary.Secret_Diary-task-mergeReleaseResources-20:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\org.hyperskill.secretdiary.Secret_Diary-task-main-22:\\layout\\activity_main.xml"
-    },
-    {
         "merged": "org.hyperskill.secretdiary.Secret_Diary-task-mergeReleaseResources-20:/layout/activity_main.xml",
         "source": "org.hyperskill.secretdiary.Secret_Diary-task-main-22:/layout/activity_main.xml"
     }

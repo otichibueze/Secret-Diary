@@ -729,6 +729,6 @@ files:
     \     .getButton(android.app.AlertDialog.BUTTON_NEGATIVE)\n            .clickAndRun()\n\
     \    }\n}"
   learner_created: false
-feedback_link: https://hyperskill.org/projects/276/stages/1401/implement#comment
+feedback_link: https://hyperskill.org/learn/step/21702#comment
 status: Unchecked
 record: -1

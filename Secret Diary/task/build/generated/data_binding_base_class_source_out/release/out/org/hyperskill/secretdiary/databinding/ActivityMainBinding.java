@@ -25,15 +25,19 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnSave;
 
   @NonNull
+  public final Button btnUndo;
+
+  @NonNull
   public final EditText etNewWriting;
 
   @NonNull
   public final TextView tvDiary;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnSave,
-      @NonNull EditText etNewWriting, @NonNull TextView tvDiary) {
+      @NonNull Button btnUndo, @NonNull EditText etNewWriting, @NonNull TextView tvDiary) {
     this.rootView = rootView;
     this.btnSave = btnSave;
+    this.btnUndo = btnUndo;
     this.etNewWriting = etNewWriting;
     this.tvDiary = tvDiary;
   }
@@ -71,6 +75,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnUndo;
+      Button btnUndo = ViewBindings.findChildViewById(rootView, id);
+      if (btnUndo == null) {
+        break missingId;
+      }
+
       id = R.id.etNewWriting;
       EditText etNewWriting = ViewBindings.findChildViewById(rootView, id);
       if (etNewWriting == null) {
@@ -83,7 +93,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnSave, etNewWriting, tvDiary);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnSave, btnUndo, etNewWriting,
+          tvDiary);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

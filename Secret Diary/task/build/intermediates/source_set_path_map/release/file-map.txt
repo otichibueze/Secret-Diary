@@ -1,19 +1,19 @@
-org.hyperskill.secretdiary.Secret_Diary-task-jetified-appcompat-resources-1.3.1-0 C:\Users\user\.gradle\caches\transforms-3\091947af17e537e0bde0f15aba402c26\transformed\jetified-appcompat-resources-1.3.1\res
-org.hyperskill.secretdiary.Secret_Diary-task-material-1.4.0-1 C:\Users\user\.gradle\caches\transforms-3\0c509a64767cb4a0bd9e3dc1c7e8784c\transformed\material-1.4.0\res
-org.hyperskill.secretdiary.Secret_Diary-task-fragment-1.3.6-2 C:\Users\user\.gradle\caches\transforms-3\228d0b5c1116f0ed649bfc319d44173f\transformed\fragment-1.3.6\res
-org.hyperskill.secretdiary.Secret_Diary-task-coordinatorlayout-1.1.0-3 C:\Users\user\.gradle\caches\transforms-3\23d175ee5221cb71089858ef261e7a8d\transformed\coordinatorlayout-1.1.0\res
-org.hyperskill.secretdiary.Secret_Diary-task-constraintlayout-2.1.3-4 C:\Users\user\.gradle\caches\transforms-3\2874ab1b7082d19e0a1a0de16ef124fe\transformed\constraintlayout-2.1.3\res
-org.hyperskill.secretdiary.Secret_Diary-task-jetified-viewpager2-1.0.0-5 C:\Users\user\.gradle\caches\transforms-3\431e3dc9098f6650e9e9ebb1dc54ece0\transformed\jetified-viewpager2-1.0.0\res
-org.hyperskill.secretdiary.Secret_Diary-task-cardview-1.0.0-6 C:\Users\user\.gradle\caches\transforms-3\47b34e5a10e413851af676ca6d2dcf20\transformed\cardview-1.0.0\res
-org.hyperskill.secretdiary.Secret_Diary-task-recyclerview-1.1.0-7 C:\Users\user\.gradle\caches\transforms-3\55387922e5aaf43632d9aa90407a7ae2\transformed\recyclerview-1.1.0\res
-org.hyperskill.secretdiary.Secret_Diary-task-jetified-annotation-experimental-1.1.0-8 C:\Users\user\.gradle\caches\transforms-3\61297bac5cf9605e877b9e9ad4b6e60b\transformed\jetified-annotation-experimental-1.1.0\res
-org.hyperskill.secretdiary.Secret_Diary-task-jetified-core-ktx-1.6.0-9 C:\Users\user\.gradle\caches\transforms-3\7aadfc68e1357d1d1ad5bb57e12ed3c6\transformed\jetified-core-ktx-1.6.0\res
-org.hyperskill.secretdiary.Secret_Diary-task-transition-1.2.0-10 C:\Users\user\.gradle\caches\transforms-3\906e7d84d6407e61ee2b9fdf86c5677e\transformed\transition-1.2.0\res
-org.hyperskill.secretdiary.Secret_Diary-task-appcompat-1.3.1-11 C:\Users\user\.gradle\caches\transforms-3\98bd4bdf9e8b1757f01d686be07bbc04\transformed\appcompat-1.3.1\res
-org.hyperskill.secretdiary.Secret_Diary-task-core-1.6.0-12 C:\Users\user\.gradle\caches\transforms-3\be1e8af53155b66328c90a0c97c9431f\transformed\core-1.6.0\res
-org.hyperskill.secretdiary.Secret_Diary-task-lifecycle-runtime-2.3.1-13 C:\Users\user\.gradle\caches\transforms-3\c853becf0e54a3af13bfdcfc6d5d63ff\transformed\lifecycle-runtime-2.3.1\res
-org.hyperskill.secretdiary.Secret_Diary-task-jetified-savedstate-1.1.0-14 C:\Users\user\.gradle\caches\transforms-3\db8248be52e670748ffc22d21e01f7bd\transformed\jetified-savedstate-1.1.0\res
-org.hyperskill.secretdiary.Secret_Diary-task-lifecycle-viewmodel-2.3.1-15 C:\Users\user\.gradle\caches\transforms-3\e998ec60f701c6b78580ea1da811639c\transformed\lifecycle-viewmodel-2.3.1\res
+org.hyperskill.secretdiary.Secret_Diary-task-material-1.4.0-0 C:\Users\user\.gradle\caches\transforms-3\1edc06fd02f3eed7ad4550ddd3d52d42\transformed\material-1.4.0\res
+org.hyperskill.secretdiary.Secret_Diary-task-lifecycle-runtime-2.3.1-1 C:\Users\user\.gradle\caches\transforms-3\239505fbcc69cbd7d45ece1ed0b35157\transformed\lifecycle-runtime-2.3.1\res
+org.hyperskill.secretdiary.Secret_Diary-task-constraintlayout-2.1.3-2 C:\Users\user\.gradle\caches\transforms-3\27a525c7f50ef926b4d64463da705b5c\transformed\constraintlayout-2.1.3\res
+org.hyperskill.secretdiary.Secret_Diary-task-jetified-annotation-experimental-1.1.0-3 C:\Users\user\.gradle\caches\transforms-3\5de6f18ffc2ceecfe7dc79c8265849a2\transformed\jetified-annotation-experimental-1.1.0\res
+org.hyperskill.secretdiary.Secret_Diary-task-jetified-appcompat-resources-1.3.1-4 C:\Users\user\.gradle\caches\transforms-3\5e73c83f8e38d6c38c4f6c44ace3602d\transformed\jetified-appcompat-resources-1.3.1\res
+org.hyperskill.secretdiary.Secret_Diary-task-jetified-savedstate-1.1.0-5 C:\Users\user\.gradle\caches\transforms-3\6b217cfc74a08e906e9c14beb1880573\transformed\jetified-savedstate-1.1.0\res
+org.hyperskill.secretdiary.Secret_Diary-task-core-1.6.0-6 C:\Users\user\.gradle\caches\transforms-3\6d7adb991e312702a7829e134e8a4e0e\transformed\core-1.6.0\res
+org.hyperskill.secretdiary.Secret_Diary-task-jetified-viewpager2-1.0.0-7 C:\Users\user\.gradle\caches\transforms-3\6e54b0027e2d6975c4bc12d3ad2c0bb2\transformed\jetified-viewpager2-1.0.0\res
+org.hyperskill.secretdiary.Secret_Diary-task-appcompat-1.3.1-8 C:\Users\user\.gradle\caches\transforms-3\89a30f62cd3080db2a09dd0b9297fa73\transformed\appcompat-1.3.1\res
+org.hyperskill.secretdiary.Secret_Diary-task-cardview-1.0.0-9 C:\Users\user\.gradle\caches\transforms-3\9b9d644401d32de21a7df21d4b06dbd4\transformed\cardview-1.0.0\res
+org.hyperskill.secretdiary.Secret_Diary-task-jetified-core-ktx-1.6.0-10 C:\Users\user\.gradle\caches\transforms-3\ae1933a87bc99ce1977be707c057b13a\transformed\jetified-core-ktx-1.6.0\res
+org.hyperskill.secretdiary.Secret_Diary-task-coordinatorlayout-1.1.0-11 C:\Users\user\.gradle\caches\transforms-3\b7211837a43714639ef0ea02d6772227\transformed\coordinatorlayout-1.1.0\res
+org.hyperskill.secretdiary.Secret_Diary-task-recyclerview-1.1.0-12 C:\Users\user\.gradle\caches\transforms-3\d0f7f37ec4324c256d56e4bc801b6e70\transformed\recyclerview-1.1.0\res
+org.hyperskill.secretdiary.Secret_Diary-task-fragment-1.3.6-13 C:\Users\user\.gradle\caches\transforms-3\e006b0c1336dae48a0ea0b340578bcb1\transformed\fragment-1.3.6\res
+org.hyperskill.secretdiary.Secret_Diary-task-lifecycle-viewmodel-2.3.1-14 C:\Users\user\.gradle\caches\transforms-3\ee4034a728a8b61098ac05581335b538\transformed\lifecycle-viewmodel-2.3.1\res
+org.hyperskill.secretdiary.Secret_Diary-task-transition-1.2.0-15 C:\Users\user\.gradle\caches\transforms-3\ee5cc693110a9645db0772c41db22660\transformed\transition-1.2.0\res
 org.hyperskill.secretdiary.Secret_Diary-task-pngs-16 C:\Users\user\AndroidStudioProjects\Secret Diary\Secret Diary\task\build\generated\res\pngs\release
 org.hyperskill.secretdiary.Secret_Diary-task-resValues-17 C:\Users\user\AndroidStudioProjects\Secret Diary\Secret Diary\task\build\generated\res\resValues\release
 org.hyperskill.secretdiary.Secret_Diary-task-rs-18 C:\Users\user\AndroidStudioProjects\Secret Diary\Secret Diary\task\build\generated\res\rs\release

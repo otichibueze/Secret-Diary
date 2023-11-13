@@ -1,6 +1,8 @@
 package org.hyperskill.secretdiary
 
 import android.app.AlertDialog
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Build
 import android.os.Bundle
 import android.widget.Button
@@ -15,6 +17,8 @@ import java.util.Date
 import java.util.Locale
 
 
+
+
 class MainActivity : AppCompatActivity() {
 
     val savebtn : Button by lazy {findViewById(R.id.btnSave)}
@@ -24,6 +28,9 @@ class MainActivity : AppCompatActivity() {
     var diaryList = mutableListOf<String>() //list of item
     var diaryText = "" //to help process string
 
+    lateinit var sharedPreferences: SharedPreferences
+    lateinit var mEditor : SharedPreferences.Editor
+
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +38,17 @@ class MainActivity : AppCompatActivity() {
 
         //Clear text in case of lifecycle changes
         diary.setText("")
+
+        sharedPreferences  = getSharedPreferences(PREFERENCES_NAME, Context.MODE_PRIVATE)
+        mEditor = sharedPreferences.edit()
+
+        //Load last saved file
+        var saveDiary = sharedPreferences.getString(DIARY_KEY,"empty")
+        if(saveDiary != "empty") {
+            //diary.setText(saveDiary.toString())
+            load(saveDiary.toString())
+            setDairyList()
+        }
 
         savebtn.setOnClickListener{
             //Get time now in local format
@@ -72,6 +90,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    //Method for looping from mutableList<String> into diary and saving into shared preference
     private fun setDairyList() {
         //Display items last added top on the list first added last
         for (i in diaryList.size - 1 downTo 0) {
@@ -81,6 +100,24 @@ class MainActivity : AppCompatActivity() {
 
         //remove unnecessary spaces at the end and set to textView
         diary.setText(diaryText.trim())
+        mEditor.putString(DIARY_KEY, diaryText.trim())
+        mEditor.apply()
     }
+
+    //load from string into mutableListOf<String>
+    private fun load(str: String) {
+        var values = str.split('\n')
+        values = values.filter { it.isNotEmpty() }
+
+        for(i in values.size - 1 downTo 0  step 2) {
+            diaryList.add("${values[i-1]}\n${values[i]}")
+        }
+    }
+
+    companion object {
+        const val PREFERENCES_NAME = "PREF_DIARY"
+        const val DIARY_KEY = "KEY_DIARY_TEXT"
+    }
+
 
 }

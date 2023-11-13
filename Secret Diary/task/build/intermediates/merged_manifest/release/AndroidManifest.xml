@@ -18,7 +18,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="org.hyperskill.secretdiary.MainActivity" >
+        <activity
+            android:name="org.hyperskill.secretdiary.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="org.hyperskill.secretdiary.LoginActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

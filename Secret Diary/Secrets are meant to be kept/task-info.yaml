@@ -230,26 +230,6 @@ files:
             android:strokeColor="#00000000" />
     </vector>
   learner_created: false
-- name: src/main/res/layout/activity_main.xml
-  visible: true
-  text: |
-    <?xml version="1.0" encoding="utf-8"?>
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-  learner_created: false
 - name: src/main/res/mipmap-anydpi-v26/ic_launcher.xml
   visible: true
   text: |-
@@ -940,6 +920,19 @@ files:
         }
     }
   learner_created: false
+- name: src/main/res/layout/activity_login.xml
+  visible: true
+  learner_created: true
+- name: src/main/java/org/hyperskill/secretdiary/LoginActivity.kt
+  visible: true
+  learner_created: true
+- name: src/main/res/layout/activity_main.xml
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/21703#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Mon, 13 Nov 2023 11:15:14 UTC"
 record: -1

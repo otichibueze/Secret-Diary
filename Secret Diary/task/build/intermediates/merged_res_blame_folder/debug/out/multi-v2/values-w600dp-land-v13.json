@@ -4,7 +4,7 @@
             "outputFile": "org.hyperskill.secretdiary.Secret_Diary-task-mergeDebugResources-19:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\1edc06fd02f3eed7ad4550ddd3d52d42\\transformed\\material-1.4.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\53025b1ca05e21dff699173048c6b8db\\transformed\\material-1.4.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

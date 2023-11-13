@@ -1,6 +1,18 @@
 [
     {
-        "merged": "org.hyperskill.secretdiary.Secret_Diary-task-mergeDebugResources-20:/layout/activity_main.xml",
-        "source": "org.hyperskill.secretdiary.Secret_Diary-task-main-23:/layout/activity_main.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\org.hyperskill.secretdiary.Secret_Diary-task-mergeDebugResources-20:\\layout\\activity_book.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\org.hyperskill.secretdiary.Secret_Diary-task-main-23:\\layout\\activity_book.xml"
+    },
+    {
+        "merged": "org.hyperskill.secretdiary.Secret_Diary-task-mergeDebugResources-20:/layout/activity_login.xml",
+        "source": "org.hyperskill.secretdiary.Secret_Diary-task-main-23:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\org.hyperskill.secretdiary.Secret_Diary-task-mergeDebugResources-20:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\org.hyperskill.secretdiary.Secret_Diary-task-main-23:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\org.hyperskill.secretdiary.Secret_Diary-task-mergeDebugResources-20:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\org.hyperskill.secretdiary.Secret_Diary-task-main-23:\\layout\\activity_login.xml"
     }
 ]
